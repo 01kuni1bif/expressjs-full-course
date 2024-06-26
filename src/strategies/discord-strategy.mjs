@@ -20,7 +20,7 @@ export default passport.use(
 		{
 			clientID: "1185785809043996732",
 			clientSecret: "client secret goes here",
-			callbackURL: "http://localhost:3000/api/auth/discord/redirect",
+			callbackURL: "http://127.0.0.1:3000/api/auth/discord/redirect",
 			scope: ["identify"],
 		},
 		async (accessToken, refreshToken, profile, done) => {

@@ -6,7 +6,7 @@ describe("create user and login", () => {
 	let app;
 	beforeAll(() => {
 		mongoose
-			.connect("mongodb://localhost/express_tutorial_test")
+			.connect("mongodb://127.0.0.1/express_tutorial_test")
 			.then(() => console.log("Connected to Test Database"))
 			.catch((err) => console.log(`Error: ${err}`));
 

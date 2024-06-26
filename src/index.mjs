@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { createApp } from "./createApp.mjs";
 
 mongoose
-	.connect("mongodb://localhost/express_tutorial")
+	.connect("mongodb://127.0.0.1/express_tutorial")
 	.then(() => console.log("Connected to Database"))
 	.catch((err) => console.log(`Error: ${err}`));
 
